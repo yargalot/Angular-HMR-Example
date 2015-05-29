@@ -14,7 +14,7 @@ for (e in config.entry) {
 
 config.devtool = '#eval';
 
-config.module.loaders[0].loaders = ['angular-hmr-loader'].concat(config.module.loaders[0].loaders);
+config.module.loaders[0].loaders = ['angular-hmr'].concat(config.module.loaders[0].loaders);
 
 console.log(config.module.loaders[0].loaders);
 

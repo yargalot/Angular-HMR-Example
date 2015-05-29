@@ -15,5 +15,5 @@ angular.module('app.components')
         controller: require('./ctrl.js'),
         template: require('./template.html')
     };
-})
+});
 //.controller('testCtrl', require('./ctrl.js'));
