@@ -13,6 +13,8 @@ angular.module('app.pages')
         bindToController: true,
         controllerAs: 'state',
         controller: function($scope) {
+
+            $scope.pageIndexVar = 'dern';
             this.sessions = DataStore.getSessions();
 
             DataStore.onSessionsChanged(() => {
@@ -20,10 +22,11 @@ angular.module('app.pages')
 
                 $scope.$apply();
             });
+
         },
         template: `
             <h1>JSCONFBE 2015</h1>
-            <p>THIS IS A TEST</p>
+            <p>THIS IS A something {{pageIndexVar}}</p>
             <session-list
                 sessions="state.sessions">
             </session-list>

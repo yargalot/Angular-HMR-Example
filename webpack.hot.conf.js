@@ -7,7 +7,7 @@ var config = require('./webpack.dev.conf.js');
 
 for (e in config.entry) {
     if (e !== 'vendor') {
-        config.entry[e] = ['webpack-dev-server/client?http://' + host + ':8090', 'webpack/hot/dev-server'].concat(config.entry[e]);
+        config.entry[e] = ['webpack-dev-server/client?http://' + host + ':8090', 'webpack/hot/only-dev-server'].concat(config.entry[e]);
         console.log(config.entry);
     }
 }
