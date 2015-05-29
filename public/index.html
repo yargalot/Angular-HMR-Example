@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>JsConf demo</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body ng-app="app">
+
+    <div class="container" ui-view></div>
+
+
+    <!--  A server environment check could define whether to use ip:8090 or a relative path.
+        And remove the livereload script.  -->
+    <script src="http://localhost:8090/vendor.js"></script>
+    <script src="http://localhost:8090/main.js"></script>
+
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "angular-hmr-loader",
+  "version": "0.0.1",
+  "description": "An angular hot reload solution Proof of Concept",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeroenverfallie/angular-hmr-loader"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "source-map": "0.1.40"
+  },
+  "gitHead": "4ce24a1c019c595f381f6844d3f3f7e77a4cfbba",
+  "bugs": {
+    "url": "https://github.com/jeroenverfallie/angular-hmr-loader/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/jeroenverfallie/angular-hmr-loader",
+  "_id": "angular-hmr-loader@0.0.1",
+  "_shasum": "7ec62b354dde402f2960af43178671d5e68cba5d",
+  "_from": "../../../../../../../var/folders/qm/cpz9_pf923130l3jmz79tmnr0000gn/T/npm-3416-88bb5d38/git-cache-5200c3cb2dc4/4ce24a1c019c595f381f6844d3f3f7e77a4cfbba",
+  "_resolved": "git://github.com/jeroenverfallie/angular-hmr-loader.git#4ce24a1c019c595f381f6844d3f3f7e77a4cfbba"
+}

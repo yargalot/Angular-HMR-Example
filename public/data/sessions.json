@@ -1,0 +1,54 @@
+[
+
+  {
+    "id": 0,
+    "title": "Flux & React",
+    "description": "Facebook switched to Flux+React. Why, How is it different, What is it, How do we develop an application in it... Come to this session to get hands on experience."
+  },
+  {
+    "id": 1,
+    "title": "Tessel.io - IoT ",
+    "description": "Program a microcontroller with JavaScript. Make it control servo's, read temperature, light lamps, etc... Take a look at Tessel's website. We'll have enough boards for you to play with. After this workshop, your life will never be the same..."
+  },
+  {
+    "id": 2,
+    "title": "Angular ",
+    "description": "Let's make an Angular web app. Learn from the developers that work day-in day-out with this great technology. Be warned: You'll have to make your hands dirty."
+  },
+  {
+    "id": 3,
+    "title": "Publish a mobile html/JavaScript app",
+    "description": "In 99% of the cases there is no need to program in Android/Java or iOS/Swift. JavaScript and html5 give you more than enough power and let you access native functions. Let's publish our app..."
+  },
+  {
+    "id": 4,
+    "title": "ECMA 6",
+    "description": "We heard Tom tell us some new stuff about ECMAScript 6, the next official version of JavaScript. Will it be called Javascript2015? What will be the direction ECMA7 will go? Hear it from one the the JavaScript committee members."
+  },
+  {
+    "id": 5,
+    "title": "ECMA 6",
+    "description": "We heard Tom tell us some new stuff about ECMAScript 6, the next official version of JavaScript. Will it be called Javascript2015? What will be the direction ECMA7 will go? Hear it from one the the JavaScript committee members."
+  },
+  {
+    "id": 6,
+    "title": "Isomorphic Apps with Meteor",
+    "description": "The Meteor platform makes developer's lives easier so that pros and beginners alike can start building more appealing web applications. In this session we will be talking about both principles and techniques to build isomorphic realtime apps from ground up."
+  },
+  {
+    "id": 7,
+    "title": "node.js + sockets.io  = dynamic webapp",
+    "description": "With this example we'll construct a web app that reads events from hardware through a socket. Store this data in the SQL database. Generate reports on the collected data with templates. A kind of all-in-one app, where we demonstrate 3 technologies."
+  },
+  {
+    "id": 8,
+    "title": "An Angular news dashboard",
+    "description": "Scraping, Angular, Highcharts and Heroku are the main ingredients used in this project. Two Bits of Love will come and tells us everything you wanted to know about these technologies."
+  },
+  {
+    "id": 9,
+    "title": "Cody CMS",
+    "description": "See how this CMS / framework has evolved. Use it to build a website, a web app. Look at it as an example of larger nodejs development. It uses MVC, mySQL as database, has a form builder, uses a powerful template language..."
+  }
+
+]
