@@ -5,7 +5,9 @@ import '../../components/session-list/session-list.js';
 import DataStore from '../../data-flow/store.js';
 
 angular.module('app.pages')
-
+.run(function() {
+  console.log('Derping and Herping');
+})
 .directive('pageIndex',function() {
     return {
         restrict : 'E',
@@ -25,7 +27,7 @@ angular.module('app.pages')
 
         },
         template: `
-            <h1>JSCONFBE 2015</h1>
+            <h1>Angular HMR Test</h1>
             <p>THIS IS A something {{pageIndexVar}}</p>
             <session-list
                 sessions="state.sessions">

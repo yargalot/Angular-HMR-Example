@@ -1,3 +1,3 @@
 module.exports = function($scope) {
-  $scope.herp = 'herp';
+  $scope.herp = 'Something';
 };
