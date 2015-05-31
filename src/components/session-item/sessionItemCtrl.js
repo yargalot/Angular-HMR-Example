@@ -1,5 +1,5 @@
 module.exports = function(ApiService, $scope) {
-  $scope.derping = 'Herping';
+  $scope.derping = 'derping';
   this.onClick = () => {
     ApiService.setSessionAsAttending(this.session.id);
   };

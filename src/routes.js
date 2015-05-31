@@ -7,16 +7,29 @@ import './data-flow/api-service.js';
 angular.module('app')
 .config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/');
+  var configName = 'configOne';
 
-    $stateProvider
-        .state('app', {
-            url: '/',
-            template: '<page-index></page-index>',
-            resolve: {
-                loadSessions: function(ApiService) {
-                    return ApiService.loadSessions();
-                }
-            }
-        });
+  $urlRouterProvider.otherwise('/');
+
+  $stateProvider
+    .state('app', {
+      url: '/',
+      template: '<h1>Angular-herp</h1><ui-view />',
+      resolve: {
+          loadSessions: function(ApiService) {
+              return ApiService.loadSessions();
+          }
+      }
+    });
+
+})
+.config(function($stateProvider) {
+
+  var configName = 'configTwo';
+
+  $stateProvider.state('app.dashboard', {
+    url: 'dashboard',
+    template: '<h1>Dashboard</h1><page-index />'
+  });
+
 });
