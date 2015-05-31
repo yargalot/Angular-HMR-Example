@@ -1,9 +1,6 @@
 // Define our routes
 'use strict';
 
-import './pages/index/index.js';
-import './data-flow/api-service.js';
-
 angular.module('app')
 .config(function($stateProvider, $urlRouterProvider) {
 

@@ -1,4 +1,5 @@
 'use strict';
 
-angular.module('app.services')
-.service('ApiService', require('./factory'));
+module.exports = angular
+  .module('app.services', [])
+  .service('ApiService', require('./service'));
