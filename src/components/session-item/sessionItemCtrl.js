@@ -1,3 +1,3 @@
 module.exports = function($scope) {
-  $scope.derping = 'derping';
+  $scope.derping = 'something';
 };

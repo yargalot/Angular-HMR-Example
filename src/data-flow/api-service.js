@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = angular
-  .module('app.services', [])
-  .service('ApiService', require('./service'));
+var moduleName = module.exports = 'app.services';
+
+angular
+  .module(moduleName, [])
+  .factory('ApiService', require('./service'));

@@ -1,7 +1,5 @@
 'use strict'; // Used in session-list
 
-import '../../data-flow/api-service.js';
-
 angular
   .module('app.components')
   .directive('sessionItem',function() {

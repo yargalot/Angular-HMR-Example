@@ -4,7 +4,6 @@ module.exports = function($http, $q) {
       return $http.get('/data/sessions.json');
     };
 
-
     return {
         loadSessions
     };
