@@ -1,6 +1,6 @@
 angular
   .module('app', [
-    require('./pages'),
+    require('./pages').name,
     require('./data-flow/api-service'),
     require('./components'),
     'ui.router'

@@ -1,6 +1,6 @@
-module.exports = function($scope, ApiService) {
+module.exports = function($scope, ApiService, $cacheFactory) {
 
-    $scope.pageIndexVar = 'DERNNNN';
+    $scope.pageIndexVar = 'Herp';
 
     ApiService.loadSessions().success(function(data) {
       $scope.sessions = data;
